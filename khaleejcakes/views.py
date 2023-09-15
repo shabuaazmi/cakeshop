@@ -6,4 +6,6 @@ def login(request):
     return render(request,'login.html')
 def signup(request):
     return render(request,'signup.html')
+def seller(request):
+    return render(request,'sellerpage.html')
 # Create your views here.
