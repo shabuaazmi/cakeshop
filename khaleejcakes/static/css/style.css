@@ -2282,8 +2282,10 @@ ol {
 }
 
 .class__sidebar {
-  background: #fdf3ea;
+  background: #e8af7c;
   padding: 30px;
+  width: 700px;
+  margin-right: 00px;
 }
 .class__sidebar h5 {
   font-size: 20px;

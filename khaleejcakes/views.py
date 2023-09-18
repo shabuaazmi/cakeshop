@@ -2,6 +2,10 @@ from django.shortcuts import render,redirect
 
 def index(request):
     return render(request,'index.html')
+    # return render(request,'admin.html')
+    # return render(request,'userpage.html')
+    # return render(request,'sellerpage.html')
+
 def login(request):
     return render(request,'login.html')
 def signup(request):
