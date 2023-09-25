@@ -258,7 +258,8 @@
                 <div class="col-lg-4">
                     <div class="class__sidebar">
                         <h5>Returning Customer</h5>
-                        <form action="#" method="post">
+                        <form action="/login1/" method="post">
+                            {% csrf_token %}
                             <!-- <input type="text" placeholder="Frist Name">
                             <input type="text" placeholder="Last Name" id="">
                             <input type="email" placeholder="Email" id="">
@@ -271,7 +272,7 @@
                                 <option value="">Other</option>
                             </select> -->
                             <input type="text" name="username" placeholder="Username">
-                            <input type="password" placeholder="Password">
+                            <input type="password" name="password" placeholder="Password">
                             <!-- <input type="password" name="re_password" placeholder="Confirm Password" id="">
                             <input type="text" placeholder="Type your requirements"> -->
                             <button type="submit" class="site-btn">Login</button>

@@ -26,6 +26,10 @@ urlpatterns = [
     path('login/',views.login),
     path('signup/',views.signup),
     path('seller/',views.seller),
+    path('userform1/',views.userform1),
+    path('login1/',views.login1),
+    path('adminpage/',views.adminpage),
+    path('userpage/',views.userpage),
 ]
 if settings.DEBUG:
     urlpatterns+=static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
