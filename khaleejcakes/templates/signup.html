@@ -258,10 +258,10 @@
                 <div class="col-lg-4">
                     <div class="class__sidebar">
                         <h5>SIGN UP NOW!</h5>
-                        <form action="/userform1/" method="post"> {% csrf_token %}
+                        <form action="/signup1/" method="post"> {% csrf_token %}
                             <input type="text" placeholder="Name" name="fname">
                             <!-- <input type="text" placeholder="Last Name" id=""> -->
-                            <input type="email" placeholder="Email" id="">
+                            <input type="email" name="email" placeholder="Email" id="">
                             <input type="text" name="phone" placeholder="Whatsapp Number" id="">
                             <!-- <select>
                                 <option value="">Select Gender</option>

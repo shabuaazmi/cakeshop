@@ -12,10 +12,12 @@ def signup(request):
     return render(request,'signup.html')
 def seller(request):
     return render(request,'sellerpage.html')
-def userform1(request):
+def signup1(request):
     a=User()
     a.first_name=request.POST.get('fname')
     a.username=request.POST.get('username')
+    # a.email=request.POST.get('email')
+    # a.email="test@gmail.com"
     a.email=request.POST.get('email')
     p=request.POST.get('password')
     a.set_password(p)
@@ -34,6 +36,7 @@ def login1(request):
 def adminpage(request):
     return render(request,'admin.html')
 def userpage(request):
-    return render(request,'userpage.html')
+    s=request.session['username']
+    return render(request,'userpage.html',{'x':s})
     
 # Create your views here.

@@ -424,6 +424,7 @@ ol {
 .header__top__right__cart {
   display: inline-block;
 }
+
 .header__top__right__cart a {
   position: relative;
   display: inline-block;
@@ -3598,7 +3599,7 @@ ol {
     top: 0;
     margin-left: 0;
   }
-
+  
   .header__top__inner {
     height: auto;
     padding: 25px 0;
