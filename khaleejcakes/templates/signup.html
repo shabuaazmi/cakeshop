@@ -97,9 +97,10 @@
                                 </ul>
                             </div>
                             <div class="header__logo">
-                                <a href="{% static './index.html' %}"><img src="{% static 'img/logo.png' %}" alt=""></a>
+                                <!-- <a href="{% static './index.html' %}"><img src="{% static 'img/logo.png' %}" alt=""></a> -->
+                                <h3>Khaleej Cakes</h3>
                             </div>
-                            <div class="header__top__right">
+                            <!-- <div class="header__top__right">
                                 <div class="header__top__right__links">
                                     <a href="#" class="search-switch"><img src="{% static 'img/icon/search.png' %}" alt=""></a>
                                     <a href="#"><img src="{% static 'img/icon/heart.png' %}" alt=""></a>
@@ -108,7 +109,7 @@
                                     <a href="#"><img src="{% static 'img/icon/cart.png' %}" alt=""> <span>0</span></a>
                                     <div class="cart__price">Cart: <span>0.00</span></div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -257,7 +258,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="class__sidebar">
-                        <h5>SIGN UP NOW!</h5>
+                        <h5 style="text-align: center;">SIGN UP NOW!</h5>
                         <form action="/signup1/" method="post"> {% csrf_token %}
                             <input type="text" placeholder="Name" name="fname">
                             <!-- <input type="text" placeholder="Last Name" id=""> -->
