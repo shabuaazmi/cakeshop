@@ -30,6 +30,7 @@ urlpatterns = [
     path('login1/',views.login1),
     path('adminpage/',views.adminpage),
     path('userpage/',views.userpage),
+    path('userprofile/',views.userprofile)
 ]
 if settings.DEBUG:
     urlpatterns+=static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
